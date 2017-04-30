@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+body {
+	overflow-x: hidden;
+}
+
+p {
+	margin-top: 10px;
+}
+
+/*セパレート*/
+ .separate {
+	background-size: cover;
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+	.separate {
+		width: 1366px;
+		left: 50%;
+		margin-left: -683px;
+	}
+}
+
+.separate-blue {
+	background-image: url("../image/separate-blue.png");
+	height: 84px;	
+}
+
+#separate-footer {
+	transform: rotate(180deg);
+	margin-top: -80px;
+}
+
+.separate-glay {
+	background-image: url("../image/separate-glay.png");
+	height: 124px;
+	margin-top: -123px;
+}
+
+.separate-white {
+	background-image: url("../image/separate-white.png");
+	height: 124px;
+	margin-top: -123px;
+}
+
+
+/*コンテンツ*/
+#conteiner {
+	text-align: center;
+}
+
+/*コンテンツ-メイン*/
+#main-conteiner {
+	height: 650px;
+	background-color: #e2e2e2;
+}
+
+#main {
+	background-image: url("../image/main.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 650px;
+	width: 1366px;
+	position: absolute;
+	left: 50%;
+	margin-left: -656px;
+	top: 0;
+}
+
+#main h2 {
+	margin-top: 85px;
+}
+
+#main h1 {
+	margin-top: 35px;
+}
+
+#main-sentence {
+	margin-top: 50px;
+	color: #6a6a6a;
+}
+
+/*コンテンツ-あそびかた*/
+#about-play h2 img {
+	margin-top: 30px;	
+}
+
+#about-play-sentence {
+	margin-top: 25px;
+	color: #d98a51;
+}
+
+#about-play-image {
+	display: inline-grid;
+	margin-top: 5px;
+}
+
+#about-play-image img {
+	margin-top: 25px;
+}
+
+#about-play-conteiner {
+	height: 1190px;
+	background-color: #f2f2f2;
+}
+
+/*コンテンツ-あそんだら*/
+#about-after-played h2 img {
+	margin-top: 10px;	
+}
+
+#about-after-played-conteiner {
+	height: 690px;
+	background-color: white;
+}
+
+#about-afterplayed-sentence {
+	margin-top: 25px;
+	color: #506f98;
+}
+
+#about-after-played-image {
+	display: inline-grid;
+	margin-top: 15px;
+}
+
+#about-after-played-image img {
+	margin-top: 15px;
+}
+
+#iphon-black {
+	position: relative;
+	left: -90px;
+}
+
+#iphon-white {
+	position: relative;
+	left: 90px;
+}
+
+/*コンテンツ-てんじ*/
+#about-display-conteiner h2 img {
+	margin-top: 10px;	
+}
+
+#about-display-conteiner {
+	height: 480px;
+	background-color: #f2f2f2;
+}
+
+#about-display-image img {
+	margin-top: 25px;
+	position: relative;
+}
+
+#datetime {
+	left: -22px;
+}
+
+#place {
+	left: 5px;
+}
+
+#copyright {
+	color: white;
+	text-align: center;
+	transform: rotate(180deg);
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+/*くも*/
+/*#cloud-conteiner {
+	position: absolute;
+	top: 100px;
+}
+
+.cloud1 {
+	background-image: url("../image/cloud1.png"); 
+	background-repeat: no-repeat;
+	width: 133px;
+	height: 66px;
+	margin-top: 80px;
+}
+
+.cloud2 {
+	background-image: url("../image/cloud2.png"); 
+	background-repeat: no-repeat;
+	width: 134px;
+	height: 67px;
+	margin-top: 80px;
+}*/
